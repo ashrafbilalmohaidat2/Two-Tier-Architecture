@@ -67,7 +67,7 @@ variable "private-subnet2-cidr" {
 variable "ami-id" {
     description = "ami-id"
     type = string
-    default = "ami-0a116fa7c861dd5f9"
+    default = ""
 }
 
 variable "instance-type" {
@@ -115,7 +115,7 @@ variable "db-username" {
 variable "db-password" {
    description = "Password for db instance"
    type = string
-   default = "abmashraf2222"
+   sensitive = true
 }
 
 variable "db-sg-name" {
@@ -127,5 +127,5 @@ variable "db-sg-name" {
 variable "key-name" {
     description = "Value for key-name"
     type = string
-    default = "my-key"
+    default = "Your Key Pair Name"
 }
