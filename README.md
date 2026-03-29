@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Two-Tier-Architecture
 
 ![Image](https://github.com/ashrafbilalmohaidat2/Two-Tier-Architecture/blob/4965f98e0faec525afaa368bf29538b508ad8c2d/A%20(2).png)
@@ -139,4 +138,3 @@ terraform destroy -var-file="secret.tfvars"
 - EC2 SSH (port 22) is restricted to `my-ip` — keep this updated to your current IP
 - Private subnets have `map_public_ip_on_launch = false` — instances in private subnets won't receive public IPs
 - Consider enabling HTTPS (port 443) on the ALB with an ACM certificate for production use
->>>>>>> 83c3bdb (New Update)
