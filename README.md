@@ -1,7 +1,3 @@
-# Two-Tier-Architecture
-
-![Image](https://github.com/ashrafbilalmohaidat2/Two-Tier-Architecture/blob/4965f98e0faec525afaa368bf29538b508ad8c2d/A%20(2).png)
-=======
 # Two-Tier AWS Architecture with Terraform
 
 A Terraform project that provisions a highly available two-tier architecture on AWS, consisting of a web tier (EC2 + ALB) and a database tier (RDS MySQL), deployed across two availability zones.
