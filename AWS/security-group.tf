@@ -5,11 +5,11 @@ resource "aws_security_group" "sg" {
 
 
   ingress {
-    description      = "SSH from VPC"
+    description      = "SSH from your IP only"
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-    cidr_blocks      = ["0.0.0.0/0"]
+    cidr_blocks      = [var.my-ip]
   }
 
   ingress {

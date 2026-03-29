@@ -129,3 +129,8 @@ variable "key-name" {
     type = string
     default = "Your Key Pair Name"
 }
+
+variable "my-ip" {
+    description = "Your public IP in CIDR notation for SSH access (e.g. 203.0.113.10/32)"
+    type = string
+}
